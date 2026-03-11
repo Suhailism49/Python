@@ -1,0 +1,16 @@
+class Student:
+    def __init__(self, naam, leeftijd, opleiding):
+        self.naam = naam
+        self.leeftijd = leeftijd
+        self.opleiding = opleiding
+
+    def begroet(self):
+        print(f"Hallo, ik ben {self.naam}, ik ben {self.leeftijd} jaar en ik volg de opleiding {self.opleiding}.")
+
+# Objecten maken
+student1 = Student("Ali", 19, "Software Developer")
+student2 = Student("Sara", 21, "Verpleegkunde")
+
+# Methode aanroepen
+student1.begroet()
+student2.begroet()
